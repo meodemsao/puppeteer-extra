@@ -80,6 +80,7 @@ class StealthPlugin extends PuppeteerExtraPlugin {
 
   get defaults() {
     const availableEvasions = new Set([
+      'canvas.fingerprint',
       'chrome.app',
       'chrome.csi',
       'chrome.loadTimes',
