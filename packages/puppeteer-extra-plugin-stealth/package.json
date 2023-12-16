@@ -51,6 +51,7 @@
     "puppeteer": "9"
   },
   "dependencies": {
+    "crypto": "^1.0.1",
     "debug": "^4.1.1",
     "puppeteer-extra-plugin": "^3.2.3",
     "puppeteer-extra-plugin-user-preferences": "^2.4.1"
